@@ -1,0 +1,170 @@
+html {
+    font-size: 18px;
+    min-height: 100%;
+}
+
+html, .main, .refcontent, .tocview, .tocsub, .sroman, i {
+    font-family: "Source Sans Pro", "Segoe UI", sans-serif;
+}
+
+body {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto minmax(auto, 750px);
+    gap: 20px;
+    padding-bottom: 10vh;
+    background: linear-gradient(to bottom, rgba(225, 133, 155, 0) 15%, rgba(225, 133, 155, 0.8)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAABhGlDQ1BJQ0MgcHJvZmlsZQAAKJF9kT1Iw0AcxV9TxaIVBzsUcchQnSyKFnHUKhShQqkVWnUwufQLmjQkKS6OgmvBwY/FqoOLs64OroIg+AHi6OSk6CIl/i8ptIjx4Lgf7+497t4BQqPCVLNrAlA1y0gn4mI2tyr2vCKAMPoQw7jETH0ulUrCc3zdw8fXuyjP8j735+hX8iYDfCLxLNMNi3iDeHrT0jnvE4dYSVKIz4nHDLog8SPXZZffOBcdFnhmyMik54lDxGKxg+UOZiVDJY4RRxRVo3wh67LCeYuzWqmx1j35C4N5bWWZ6zSHkcAilpCCCBk1lFGBhSitGikm0rQf9/APOf4UuWRylcHIsYAqVEiOH/wPfndrFqYm3aRgHOh+se2PEaBnF2jWbfv72LabJ4D/GbjS2v5qA5j5JL3e1iJHwMA2cHHd1uQ94HIHCD/pkiE5kp+mUCgA72f0TTlg8BboXXN7a+3j9AHIUFfJG+DgEBgtUva6x7sDnb39e6bV3w/R53LNAMqFwAAAAAZiS0dEAN8A3wDfYl/uvwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB+YIGAs5OfTAjN0AAAOSelRYdFJhdyBwcm9maWxlIHR5cGUgZXhpZgAASImtV1FyxSYM/NcpegRLQgiOg8HM9AY9fhfs9+IkbpvYhXleLGQhdrGc0PbXn53+QJOFhYJ5ijnGBS3kkKVgkJa95XnlJczrbHJM4f6Tnd4TCLsoUPdbL4d/gd0+HnitwetnO6VjRtIR6Jh4BdSx8litnZOEXXY7hyNQ3vZBzMnPqa5HqvVwnKkcP/V9h68g457OhuBgqRm8VGRT1mVe056Bjp9oASZcRcPwU8XY1GmHIxMQ8ml7L3y1dFjDp7k5oq/sv0dfyJdy2PULl/HgCIPLCbZr8ifFp4X1nZF8nij2CvWd5N5b6n3bd1dCBKNx2U/UQi92xjNwXEG5zsciuuNnGPvsGT0tZakQpy11WdErZxao0okDNy7ceZtYuSLFIJs4UKSKTltSlywVirGG0bmLa9YGBUWrbAT5gso7F57r5rle5YSVG8NVGMF4yv8Pnf5t8jedeq+DIl7SmyvkJePkIo2h3LjCC4JwP3SzSfCrH/J/tCGsQkGbNCdssCzrHmI1/jhbOnVW+BlwfyuYvB0BQBHWNiTDCgWWyGoceXERZwaPCQIVZD7ejRUKsJk0JClBNQq5JBlr4xnn6SsmUYYZtQlCmEZ1aJO1QKwQDOfHQ8IZKqYWzCyaWyLLVqLGEC3G6HEUueLqwc2juyfPXpKmkCzF5CmlnEqWrKiBlmP2nHLOpQgVLFQQq8C/wLLKqmtYbY2rr2nNa6k4PjVUq7F6TTXX0qRpQ5losXlLLbeyMW2oFFvYbIubb2nLW+k4a1176NZj95567uWt2qHqt/4L1fhQTaZSw8/fqsFK7q8QPMqJDc2gmASG4j4UwIGWodmSOAQZyg3NljxqmgmStKENNR6KQcKwsVjnt3Yfyv1IN7L0I93kv5SjId3/oRxBuu+6XajWxneuTsX2t3Bwuijevg1FBucolZ6SNl/KuEUZ/CVKNg7GRiu+HHMIGX+JDEJHOOy5jowwHB/a32GxEctijWlGNRqfxzH4OVqbu1pZ9bRPukXIBR90i5CL/dItQi72TbcIuUC6RcgF0i1CLpBuEXKBdIuQC6RbhFwg3SLkgg+6RcgF0t0HvxJKT2rQmVB6UoPORNGTGnTeLz2pQWekJzXojPSkBp2RntSgM9KTGnRGelKDzkhPatAZ6UkNOiM9qUFnPuhJDTrzQfdrEP5CwX/K9DfFYI6VPUAd9wAAADVJREFUSMdjuLLZmSR0doEjSYhh1IJRC0YtGLVg1IIhYQGpGkh10KgFoxaMWjBqwagFQ8ICAL098FvNiSR9AAAAAElFTkSuQmCC);
+}
+
+.navsettop, .navsetbottom, .tocsub, .tocview {
+    background: #fcfcfc;
+    border: none;
+}
+
+.maincolumn {
+    background: #fcfcfc;
+    padding: 0px 2vw;
+}
+
+.tocsub, .tocview {
+    padding: 6px;
+}
+
+.tocset, .maincolumn {
+    float: none;
+    margin: 0;
+}
+
+.navsettop {
+    margin-bottom: 1em;
+}
+
+.tocviewlist table {
+    font-size: 1rem;
+}
+.tocviewsublist table,
+.tocviewsublistonly table,
+.tocviewsublisttop table,
+.tocviewsublistbottom table {
+    font-size: 0.85rem;
+}
+
+.toclink, .toptoclink, .tocviewlink, .tocviewselflink {
+    text-decoration: none;
+}
+.toclink:hover, .toptoclink:hover, .tocviewlink:hover, .tocviewselflink:hover {
+    text-decoration: underline;
+}
+
+.maincolumn {
+    width: auto;
+}
+
+h3 {
+    font-size: 1.6em;
+}
+h4 {
+    font-size: 1.3em;
+}
+h5 {
+    font-size: 1.1em;
+}
+
+.boxed, .SVerbatim, .stt {
+    background-color: rgb(232, 232, 255);
+    font-size: 0.90em;
+}
+
+.user-table {
+  border-collapse: collapse;
+}
+.user-table--title tr:first-child td {
+    font-weight: bold;
+}
+.user-table td {
+  border: solid black;
+  padding: 4px;
+  border-width: 1px 0px;
+}
+.user-table td + td {
+  padding-left: 8px;
+}
+
+.block-note {
+    background-color: #e1e1e1;
+    position: relative;
+    margin: 0;
+    padding: 8px 8px 8px 40px;
+}
+.block-note::before {
+    content: "🛈";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 0;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+}
+.block-note p {
+    margin: 0;
+}
+
+.recommended-tool {
+    padding: 1px 20px;
+    margin: 0;
+    border-radius: 26px;
+    background: linear-gradient(150deg, #bcfbc2, #fff4c9);
+    box-shadow: 0px 3px 11px -5px black;
+    border: 1px #868686 solid;
+    border-bottom-width: 3px;
+}
+
+@media (max-width: 600px) {
+    body {
+        grid-template-columns: 1fr;
+    }
+
+    .tocset {
+        width: auto;
+    }
+}
+
+/* *****
+ * Custom Font - all of windows' preinstalled fonts are garbage, so I have to add a custom one
+ * Source Sans Pro © 20100, 2012, 2014 Adobe Systems Incorporated
+ * font files licensed under the SIL Open Font License version 1.1 http://scripts.sil.org/OFL
+ * this license notice must be distributed with the font files.
+ * thanks to https://github.com/majodev/google-webfonts-helper/ for the downloader!
+ ***** */
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Source Sans Pro"),
+       url("/files/source-sans-pro-v21-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/files/source-sans-pro-v21-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-italic.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/files/source-sans-pro-v21-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-700.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/files/source-sans-pro-v21-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-700italic.woff2") format("woff2");
+}
